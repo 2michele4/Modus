@@ -1,0 +1,186 @@
+!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modus – Where Ideas Take Shape</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+    header {
+      background: #001f3f;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a.legal-link {
+      color: red;
+    }
+    .hero {
+      background: #f0f4f8;
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #001f3f;
+    }
+    .section {
+      padding: 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+    .section h2 {
+      color: #001f3f;
+    }
+    .articles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .article {
+      flex: 1 1 30%;
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .social-icons a {
+      margin: 0 5px;
+      color: white;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .articles {
+        flex-direction: column;
+      }
+      .article {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Modus Logo">
+    <nav>
+      <a href="#lifestyle">Lifestyle</a>
+      <a href="#spass">Spaß</a>
+      <a href="#musik">Musik</a>
+      <a href="#finanzen">Finanzen</a>
+      <a href="#news">News</a>
+      <a href="#politik">Politik</a>
+      <a href="#sport">Sport</a>
+      <a href="#kontakt" class="legal-link">Kontakt</a>
+      <a href="#impressum" class="legal-link">Impressum</a>
+      <a href="#datenschutz" class="legal-link">Datenschutz</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1>Where Ideas Take Shape</h1>
+    <p>Willkommen bei Modus – deinem Magazin für Themen, die bewegen.</p>
+  </div>
+
+  <div class="section" id="lifestyle">
+    <h2>Lifestyle</h2>
+    <div class="articles">
+      <div class="article"><h3>Minimalistisch leben</h3><p>Weniger ist oft mehr – entdecke einfache Tipps.</p></div>
+      <div class="article"><h3>Sommertrends 2025</h3><p>Was diesen Sommer angesagt ist.</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="spass">
+    <h2>Spaß</h2>
+    <div class="articles">
+      <div class="article"><h3>Top 10 Memes der Woche</h3><p>Lachen garantiert!</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="musik">
+    <h2>Musik</h2>
+    <div class="articles">
+      <div class="article"><h3>Neue Releases im Juni</h3><p>Diese Alben musst du hören.</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="finanzen">
+    <h2>Finanzen</h2>
+    <div class="articles">
+      <div class="article"><h3>5 Spartipps für jeden Tag</h3><p>So behältst du den Überblick über dein Geld.</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="news">
+    <h2>News</h2>
+    <div class="articles">
+      <div class="article"><h3>Weltgeschehen kompakt</h3><p>Was du heute wissen musst.</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="politik">
+    <h2>Politik</h2>
+    <div class="articles">
+      <div class="article"><h3>Analyse der Europawahl</h3><p>Was die Ergebnisse bedeuten.</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="sport">
+    <h2>Sport</h2>
+    <div class="articles">
+      <div class="article"><h3>EM 2024 – Die Highlights</h3><p>Spannende Spiele und überraschende Sieger.</p></div>
+    </div>
+  </div>
+
+  <div class="section" id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Michele Serratore</strong><br>
+    E-Mail: <a href="mailto:2michele.serratore4@gmail.com">2michele.serratore4@gmail.com</a><br>
+    Instagram: <a href="https://instagram.com/0michele7" target="_blank">@0michele7</a></p>
+  </div>
+
+  <section id="impressum" class="section">
+    <h2>Impressum</h2>
+    <p><strong>Verantwortlich für den Inhalt:</strong><br>
+    Michele Serratore</p>
+  </section>
+
+  <section id="datenschutz" class="section">
+    <h2>Datenschutzerklärung</h2>
+    <p>Diese Website erhebt und speichert keine personenbezogenen Daten ohne deine ausdrückliche Zustimmung. Für eingebettete Inhalte von Drittanbietern (z. B. YouTube, Instagram) gelten deren Datenschutzrichtlinien.</p>
+    <p>Wenn du Fragen zum Datenschutz hast, wende dich bitte an: <a href="mailto:2michele.serratore4@gmail.com">2michele.serratore4@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Modus – Where Ideas Take Shape</p>
+  </footer>
+</body>
+</html>
